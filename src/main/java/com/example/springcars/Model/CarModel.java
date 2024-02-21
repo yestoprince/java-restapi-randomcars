@@ -38,14 +38,14 @@ public class CarModel {
     }
 
 
-    @Override
-    public String toString() {
-        return "{Car" +
-            " brand='" + getBrand() + "'" +
-            ", color='" + getColor() + "'" +
-            ", type='" + getType() + "'" +
-            "}";
-    }
+    // @Override
+    // public String toString() {
+    //     return "{Car" +
+    //         " brand='" + getBrand() + "'" +
+    //         ", color='" + getColor() + "'" +
+    //         ", type='" + getType() + "'" +
+    //         "}";
+    // }
 
 }
 

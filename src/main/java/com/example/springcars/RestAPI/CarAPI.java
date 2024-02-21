@@ -1,6 +1,6 @@
 package com.example.springcars.RestAPI;
 
-import org. springframework.beans.factory.annotation.Autowired;
+// import org. springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,7 +12,7 @@ import com.example.springcars.Model.CarModel;
 @RestController
 @RequestMapping("/api/car/v1")
 public class CarAPI {
-    @Autowired
+    // @Autowired
     private CarService carService;
     
 
